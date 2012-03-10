@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Friday, March 09, 2012 03:55:39 PM
+EESchema Schematic File Version 2  date Saturday, March 10, 2012 03:34:44 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,8 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:atmel2
-LIBS:SparkFun
 LIBS:usbkey-cache
 EELAYER 25  0
 EELAYER END
@@ -38,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 mar 2012"
+Date "10 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -116,7 +114,7 @@ U 1 1 4F5983DF
 P 3450 4200
 F 0 "LED1" V 3350 4150 50  0000 L BNN
 F 1 "LED3MM" V 3550 4050 50  0000 L BNN
-F 2 "SparkFun-LED3MM" H 3450 4350 50  0001 C CNN
+F 2 "LED-3MM" H 3450 4350 50  0001 C CNN
 	1    3450 4200
 	-1   0    0    1   
 $EndComp
@@ -270,7 +268,7 @@ U 1 1 4F59650C
 P 1450 3450
 F 0 "J1" H 1550 3850 50  0000 C CNN
 F 1 "USB-A-S" H 1550 3350 50  0000 C CNN
-F 2 "SparkFun-USB-A-S" H 1550 3250 50  0001 C CNN
+F 2 "usb_pcb_trace" H 1550 3250 50  0001 C CNN
 	1    1450 3450
 	-1   0    0    -1  
 $EndComp

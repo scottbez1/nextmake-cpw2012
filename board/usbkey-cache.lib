@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Friday, March 09, 2012 03:55:39 PM
+EESchema-LIBRARY Version 2.3  Date: Saturday, March 10, 2012 03:34:44 AM
 #encoding utf-8
 #
 # +3.3V
@@ -108,7 +108,7 @@ ENDDEF
 DEF LED3MM LED 0 40 Y Y 1 L N
 F0 "LED" -200 -150 50 V V L BNN
 F1 "LED3MM" 200 -150 50 V V L BNN
-F2 "SparkFun-LED3MM" 0 150 50 H I C CNN
+F2 "LED-3MM" 0 150 50 H I C CNN
 DRAW
 P 2 1 0 0  -80 -30  -135 -85 N
 P 2 1 0 0  -75 -75  -130 -130 N
@@ -150,7 +150,7 @@ ENDDEF
 DEF USB-A-S J 0 40 Y Y 1 L N
 F0 "J" 100 400 50 H V C CNN
 F1 "USB-A-S" 100 -100 50 H V C CNN
-F2 "SparkFun-USB-A-S" 100 -200 50 H I C CNN
+F2 "usb_pcb_trace" 100 -200 50 H I C CNN
 DRAW
 P 2 1 0 0  0 -50  200 -50 N
 P 2 1 0 0  0 350  0 -50 N
