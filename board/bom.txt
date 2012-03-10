@@ -1,12 +1,29 @@
 Digikey:                50      100
 ATTINY45-20PU-ND        1.4512  1.29
-1N4148DICT-ND           0.173   0.075  ???????
-or 1N4936-E3/54GICT-ND  0.1748  0.1215
-CF12JT68R0CT-ND (68R)   0.0518  0.0394
-490-5401-ND (0.1uF)     0.0958  0.0846
-445-2861-ND (4.7uF)     0.328   0.2161
-or P5177-ND             0.0806  0.068
-PCB                    ~0.33
 
-2.3107 @ 50 qty
-65 for $150
+1N4148TACT-ND                   0.041
+
+CF18JT68R0CT-ND (68R)           0.0271
+CF18JT1K50CT-ND (1.5kR) 0.0356
+?????? (led curr limit) ???
+
+490-5401-ND (0.1uF)     0.0958  0.0846
+
+365-1173-ND (blue)      0.32    0.31
+754-1217-ND (green)     0.0808  0.0715
+
+
+
+PCB
+5x5: 2 qty = 80 = $20 = 0.25per
+
+For Red:
+10x10: $35 for 80 = $0.4375 per
+
+
+Totals:
+PCB color   LED color   Per board   Qty For $150
+green       green       2.0852      71
+green       blue        2.3244      64
+red         green       2.2727      66
+red         blue        2.5119      59
