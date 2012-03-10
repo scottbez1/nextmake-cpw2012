@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Friday, March 09, 2012 02:15:54 PM
+EESchema Schematic File Version 2  date Friday, March 09, 2012 03:55:39 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,31 +46,70 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CP1 C1
-U 1 1 4F59A6EF
-P 2900 3550
-F 0 "C1" H 2950 3650 50  0000 L CNN
-F 1 "CP1" H 2950 3450 50  0000 L CNN
-	1    2900 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2900 3750 1700 3750
-Connection ~ 1800 3750
+	3450 4900 3450 5050
 Wire Wire Line
-	1800 3750 1800 3850
-Connection ~ 2900 3350
-$Comp
-L LED3MM LED2
-U 1 1 4F5983F0
-P 3650 4200
-F 0 "LED2" V 3550 4150 50  0000 L BNN
-F 1 "LED3MM" V 3750 4050 50  0000 L BNN
-F 2 "SparkFun-LED3MM" H 3650 4350 50  0001 C CNN
-	1    3650 4200
-	-1   0    0    1   
-$EndComp
+	3450 5050 3250 5050
+Wire Wire Line
+	3150 3350 2800 3350
+Wire Wire Line
+	2350 3350 2400 3350
+Wire Wire Line
+	2300 2450 2300 2350
+Wire Wire Line
+	2700 3200 1550 3200
+Wire Wire Line
+	3900 3600 3900 3500
+Wire Wire Line
+	3900 3500 3950 3500
+Wire Wire Line
+	3950 3200 3700 3200
+Wire Wire Line
+	3700 3200 3700 3100
+Wire Wire Line
+	3700 3100 3200 3100
+Connection ~ 6750 3000
+Wire Wire Line
+	6750 3050 6750 2900
+Wire Wire Line
+	6750 3000 6650 3000
+Wire Wire Line
+	1550 3150 1550 3100
+Wire Wire Line
+	1550 3450 1700 3450
+Wire Wire Line
+	1550 3200 1550 3250
+Wire Wire Line
+	6750 3500 6650 3500
+Wire Wire Line
+	6750 3450 6750 3650
+Connection ~ 6750 3500
+Wire Wire Line
+	3200 3200 3350 3200
+Wire Wire Line
+	3350 3200 3350 3000
+Wire Wire Line
+	3350 3000 3950 3000
+Wire Wire Line
+	3950 3100 3800 3100
+Wire Wire Line
+	3800 3100 3800 2850
+Wire Wire Line
+	3450 4000 3450 3300
+Wire Wire Line
+	3450 3300 3950 3300
+Wire Wire Line
+	3450 4300 3450 4400
+Wire Wire Line
+	1700 3450 1700 3750
+Wire Wire Line
+	1550 3100 2700 3100
+Wire Wire Line
+	2300 3200 2300 2950
+Connection ~ 2300 3200
+Connection ~ 1900 3350
+Wire Wire Line
+	1950 3350 1550 3350
 $Comp
 L LED3MM LED1
 U 1 1 4F5983DF
@@ -81,79 +120,6 @@ F 2 "SparkFun-LED3MM" H 3450 4350 50  0001 C CNN
 	1    3450 4200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3250 5050 3550 5050
-Wire Wire Line
-	1950 3350 1550 3350
-Connection ~ 1900 3350
-Connection ~ 2300 3200
-Wire Wire Line
-	2300 3200 2300 2950
-Wire Wire Line
-	2700 3100 1550 3100
-Wire Wire Line
-	1700 3750 1700 3450
-Wire Wire Line
-	3550 5050 3550 4900
-Wire Wire Line
-	3450 4300 3450 4400
-Wire Wire Line
-	3950 3300 3450 3300
-Wire Wire Line
-	3450 3300 3450 4000
-Wire Wire Line
-	3800 2850 3800 3100
-Wire Wire Line
-	3800 3100 3950 3100
-Wire Wire Line
-	3950 3000 3350 3000
-Wire Wire Line
-	3350 3000 3350 3200
-Wire Wire Line
-	3350 3200 3200 3200
-Connection ~ 6750 3500
-Wire Wire Line
-	6750 3450 6750 3650
-Wire Wire Line
-	6750 3500 6650 3500
-Wire Wire Line
-	1550 3250 1550 3200
-Wire Wire Line
-	1700 3450 1550 3450
-Wire Wire Line
-	1550 3100 1550 3150
-Wire Wire Line
-	6750 3000 6650 3000
-Wire Wire Line
-	6750 3050 6750 2900
-Connection ~ 6750 3000
-Wire Wire Line
-	3200 3100 3700 3100
-Wire Wire Line
-	3700 3100 3700 3200
-Wire Wire Line
-	3700 3200 3950 3200
-Wire Wire Line
-	3950 3500 3900 3500
-Wire Wire Line
-	3900 3500 3900 3600
-Wire Wire Line
-	3650 4000 3650 3400
-Wire Wire Line
-	3650 3400 3950 3400
-Wire Wire Line
-	3650 4300 3650 4400
-Wire Wire Line
-	3450 4900 3650 4900
-Connection ~ 3550 4900
-Wire Wire Line
-	1550 3200 2700 3200
-Wire Wire Line
-	2300 2450 2300 2350
-Wire Wire Line
-	2350 3350 2400 3350
-Wire Wire Line
-	3150 3350 2800 3350
 $Comp
 L +5V #PWR01
 U 1 1 4F59A7D4
@@ -220,20 +186,11 @@ $EndComp
 $Comp
 L GND #PWR05
 U 1 1 4F5989D0
-P 1800 3850
-F 0 "#PWR05" H 1800 3850 30  0001 C CNN
-F 1 "GND" H 1800 3780 30  0001 C CNN
-	1    1800 3850
+P 1700 3750
+F 0 "#PWR05" H 1700 3750 30  0001 C CNN
+F 1 "GND" H 1700 3680 30  0001 C CNN
+	1    1700 3750
 	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 4F5987F7
-P 3650 4650
-F 0 "R5" V 3730 4650 50  0000 C CNN
-F 1 "R" V 3650 4650 50  0000 C CNN
-	1    3650 4650
-	-1   0    0    1   
 $EndComp
 $Comp
 L R R4

@@ -1,11 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Friday, March 09, 2012 12:21:02 PM
-
-BeginCmp
-TimeStamp = /4F59A6EF;
-Reference = C1;
-ValeurCmp = CP1;
-IdModule  = C1V7;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2011-12-23 BZR 3325)-testing date = Friday, March 09, 2012 03:59:40 PM
 
 BeginCmp
 TimeStamp = /4F596C53;
@@ -50,13 +43,6 @@ IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5983F0;
-Reference = LED2;
-ValeurCmp = LED3MM;
-IdModule  = LED-3MM;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F5976B8;
 Reference = P1;
 ValeurCmp = CONN_1;
@@ -94,13 +80,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4F5987F2;
 Reference = R4;
-ValeurCmp = R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5987F7;
-Reference = R5;
 ValeurCmp = R;
 IdModule  = R3;
 EndCmp
