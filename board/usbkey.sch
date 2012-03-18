@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Saturday, March 10, 2012 03:34:44 AM
+EESchema Schematic File Version 2  date Sunday, March 18, 2012 02:00:55 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,7 +32,7 @@ LIBS:valves
 LIBS:usbkey-cache
 EELAYER 25  0
 EELAYER END
-$Descr A4 11700 8267
+$Descr User 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
