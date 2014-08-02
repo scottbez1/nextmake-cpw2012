@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!--This file is meant to be opened with AVR Project IDE, http://code.google.com/p/avr-project-ide/ -->
+<Project>
+  <DirPath>C:\Users\Frank\Documents\Projects\Other Stuff\pcb_business_card_2\usbbusinesscard-20101015\code</DirPath>
+  <HasBeenConfigged>true</HasBeenConfigged>
+  <Device>attiny85</Device>
+  <ClockFreq>16500000.00</ClockFreq>
+  <LinkerOpt />
+  <OtherOpt>-Wall -gdwarf-2</OtherOpt>
+  <OtherOptionsForC>-std=gnu99</OtherOptionsForC>
+  <OtherOptionsForCPP>-std=c99</OtherOptionsForCPP>
+  <OtherOptionsForS />
+  <OutputDir>output</OutputDir>
+  <Optimization>-Os</Optimization>
+  <UseInitStack>false</UseInitStack>
+  <InitStackAddr>0xFFFF</InitStackAddr>
+  <PackStructs>true</PackStructs>
+  <ShortEnums>true</ShortEnums>
+  <UnsignedBitfields>true</UnsignedBitfields>
+  <UnsignedChars>true</UnsignedChars>
+  <FunctionSections>true</FunctionSections>
+  <DataSections>true</DataSections>
+  <IncludeDirList />
+  <LibraryDirList />
+  <LinkObjList />
+  <LinkLibList>
+    <Lib>libm.a</Lib>
+    <Lib>libc.a</Lib>
+  </LinkLibList>
+  <MemorySegList />
+  <BurnPart>attiny85</BurnPart>
+  <BurnProgrammer>usbasp</BurnProgrammer>
+  <BurnOptions />
+  <BurnPort />
+  <BurnFuseBox>-U lfuse:w:0xE1:m -U hfuse:w:0xDF:m -U efuse:w:0xFF:m -U lock:w:0xFF:m</BurnFuseBox>
+  <BurnBaud>0</BurnBaud>
+  <BurnAutoReset>false</BurnAutoReset>
+  <LastFile>usbconfig.h</LastFile>
+  <FileList>
+    <File>
+      <!--AbsPath: 'C:\Users\Frank\Documents\Projects\Other Stuff\pcb_business_card_2\usbbusinesscard-20101015\code\main.c'-->
+      <RelPath>main.c</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>3</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'C:\Users\Frank\Documents\Projects\Other Stuff\pcb_business_card_2\usbbusinesscard-20101015\code\usbdrv\usbdrv.c'-->
+      <RelPath>usbdrv\usbdrv.c</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'C:\Users\Frank\Documents\Projects\Other Stuff\pcb_business_card_2\usbbusinesscard-20101015\code\usbdrv\usbdrvasm.S'-->
+      <RelPath>usbdrv\usbdrvasm.S</RelPath>
+      <ToCompile>true</ToCompile>
+      <Options />
+      <WasOpen>false</WasOpen>
+      <CursorPos>0</CursorPos>
+      <Bookmarks />
+    </File>
+    <File>
+      <!--AbsPath: 'C:\Users\Frank\Documents\Projects\Other Stuff\pcb_business_card_2\usbbusinesscard-20101015\code\usbconfig.h'-->
+      <RelPath>usbconfig.h</RelPath>
+      <ToCompile>false</ToCompile>
+      <Options />
+      <WasOpen>true</WasOpen>
+      <CursorPos>12640</CursorPos>
+      <Bookmarks />
+    </File>
+  </FileList>
+  <ArduinoCoreOverride />
+  <AVRStudioXMLStuff />
+</Project>

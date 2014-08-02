@@ -1,0 +1,5 @@
+.DS_Store
+*.000
+*.dsn
+*.ses
+firmware/code/output

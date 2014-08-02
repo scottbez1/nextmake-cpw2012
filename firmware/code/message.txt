@@ -1,0 +1,1 @@
+puts_P(PSTR("Thanks for checking out Next Make!\n\nNext Make is all about:\n* building cool stuff\n* learning from others\n* sharing technical knowledge\n* furthering 'mens et manus' at MIT\n\nFor more info, go to:\nhttp://next-make.mit.edu\n\nEmail us at:\nnext-make-exec@mit.edu"));

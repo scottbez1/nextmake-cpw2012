@@ -1,0 +1,2 @@
+#!/bin/bash
+wget -nv -O message.txt http://scottbezek.xvm.mit.edu/nextmakecpw/messages/$1.txt && echo -e '\n\n\n\n############################' && (cat message.txt | sed 's/puts_P(PSTR("//' | sed 's/"));//' | sed 's/\\n/\n/g' | cat) && echo -e '\n############################\n\n\n\n' && read -p "Looks good? (y/n)" && test $REPLY = "y" && (make && make burn)
